@@ -26,7 +26,7 @@ export class panelTwo {
             
 }
 
-new panelTwo()
+// new panelTwo()
 
 
 
