@@ -9,6 +9,6 @@ export class fields extends PIXI.Sprite{
         this.on('pointerdown', this.onclick)
     }
     onclick(){
-            window.location.href = 'index.html' 
+            window.location.href = 'city.html' 
         }
 }
