@@ -1,2 +1,1 @@
-# Scene-Switch-
-Scene Switch Prototype in PIXI.JS for a school assignment.
+Met deze code is het mogelijk gemaakt om een scene switch uit te voeren in PIXI.JS, voel je vrij om de code te gebruiken.
