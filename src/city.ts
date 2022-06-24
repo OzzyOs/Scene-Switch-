@@ -12,4 +12,3 @@ export class city extends PIXI.Sprite{
             window.location.href = 'fields.html' 
         }
 }
-console.log("Dit werkt niet")
