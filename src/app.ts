@@ -1,3 +1,4 @@
 import { panelOne } from "./gameCity";
+import { panelTwo } from "./gameFields";
 
-new panelOne()
+new panelTwo()
