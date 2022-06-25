@@ -24,8 +24,7 @@ export class Map {
         document.body.appendChild(this.pixi.view)
 
         this.loader = new PIXI.Loader()
-        this.loader.add('fishTexture', fishImage)
-                   .add('zuidhollandTexture', zuidhollandImage)
+        this.loader.add('zuidhollandTexture', zuidhollandImage)
                    .add('noordhollandTexture', noordhollandImage) 
                    .add('utrechtTexture', utrechtImage)
                    .add('nederlandTexture', nederlandImage)
