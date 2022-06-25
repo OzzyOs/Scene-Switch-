@@ -28,7 +28,7 @@ export class testGame {
              
 
 
-new testGame()
+
 
 
 
