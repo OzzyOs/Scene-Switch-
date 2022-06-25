@@ -16,7 +16,6 @@ export class utrecht extends PIXI.Sprite{
 
     }
     onclick() {
-        this.destroy()
-        new testGame()
+        window.location.href = 'North-Holland.html' 
     }
 }

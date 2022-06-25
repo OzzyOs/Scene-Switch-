@@ -37165,7 +37165,6 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "utrecht", ()=>utrecht
 );
 var _pixiJs = require("pixi.js");
-var _testGame = require("./testGame");
 class utrecht extends _pixiJs.Sprite {
     constructor(texture){
         super(texture);
@@ -37177,45 +37176,11 @@ class utrecht extends _pixiJs.Sprite {
         this.on('pointerdown', this.onclick);
     }
     onclick() {
-        this.destroy();
-        new _testGame.testGame();
+        window.location.href = 'North-Holland.html';
     }
 }
 
-},{"pixi.js":"dsYej","./testGame":"gxgP9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gxgP9":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "testGame", ()=>testGame
-);
-var _pixiJs = require("pixi.js");
-var _fishPng = require("./images/fish.png");
-var _fishPngDefault = parcelHelpers.interopDefault(_fishPng);
-class testGame {
-    // bubbles: Bubble[]=[]
-    // bubble : Bubble
-    constructor(){
-        this.pixi = new _pixiJs.Application({
-            width: 800,
-            height: 450
-        });
-        document.body.appendChild(this.pixi.view);
-        this.loader = new _pixiJs.Loader();
-        this.loader.add('fishTexture', _fishPngDefault.default);
-        this.loader.load(()=>this.loadCompleted()
-        );
-    }
-    loadCompleted() {
-        let fish = new _pixiJs.Sprite(this.loader.resources["fishTexture"].texture);
-        this.pixi.stage.addChild(fish);
-        fish.y = 200;
-        fish.x = 300;
-    }
-}
-
-},{"pixi.js":"dsYej","./images/fish.png":"85Hm7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"85Hm7":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('FLaer') + "fish.510b053c.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"2gOWl":[function(require,module,exports) {
+},{"pixi.js":"dsYej","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2gOWl":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "nederland", ()=>nederland
