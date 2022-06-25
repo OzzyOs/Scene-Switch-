@@ -1,4 +1,4 @@
-import { panelOne } from "./gameCity";
-import { panelTwo } from "./gameFields";
+import { Map } from "./worldMap"
+import { testGame } from "./testGame";
 
-new panelTwo()
+new Map();
